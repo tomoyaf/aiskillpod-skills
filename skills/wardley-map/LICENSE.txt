@@ -1,0 +1,18 @@
+Wardley map (AI Skill Pod library skill "wardley-map")
+
+This skill is licensed under the Creative Commons Attribution-ShareAlike 4.0
+International license (CC BY-SA 4.0):
+https://creativecommons.org/licenses/by-sa/4.0/
+
+It describes the mapping method of Simon Wardley, from his book Wardley Maps,
+published under CC BY-SA 4.0:
+https://medium.com/wardleymaps/on-being-lost-2ef5f05eb1ec
+
+Changes made: the mapping method is summarized in our own words as a
+step-by-step procedure for an AI assistant, with our own example, output
+template, and checks. No text of the book is reproduced.
+
+No endorsement by Simon Wardley or any other party is implied.
+
+If you share or adapt this skill, keep this notice, credit Simon Wardley's
+Wardley Maps, and license your version under CC BY-SA 4.0.

@@ -1,0 +1,274 @@
+{
+  "name": "aiskillpod-skills",
+  "owner": {
+    "name": "AI Skill Pod"
+  },
+  "metadata": {
+    "description": "166 free business skills for Claude, ChatGPT, Codex, Cursor, Gemini and Copilot, by job: sales, marketing, ops, hiring, customer success, finance, product, legal basics, management, strategy and AI practice.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "sales-skills",
+      "description": "Sales: Prospecting, calls, proposals, and deals. 13 skills.",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/account-plan",
+        "./skills/call-summary-crm-notes",
+        "./skills/cold-outreach-email",
+        "./skills/competitor-battlecard",
+        "./skills/deal-review",
+        "./skills/discovery-call-prep",
+        "./skills/follow-up-email",
+        "./skills/negotiation-empathy-prep",
+        "./skills/objection-handling",
+        "./skills/outbound-sequence",
+        "./skills/proposal-check",
+        "./skills/quote-email",
+        "./skills/win-loss-analysis"
+      ]
+    },
+    {
+      "name": "marketing-skills",
+      "description": "Marketing: Voice, copy, search, social, and launches. 17 skills.",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/ad-copy-variants",
+        "./skills/brand-voice",
+        "./skills/bullseye-channel-plan",
+        "./skills/case-study-writer",
+        "./skills/content-calendar",
+        "./skills/email-campaign-review",
+        "./skills/landing-copy-review",
+        "./skills/landing-page-house-style",
+        "./skills/launch-announcement",
+        "./skills/mind-position-check",
+        "./skills/newsletter-draft",
+        "./skills/persuasion-principles-review",
+        "./skills/positioning-statement",
+        "./skills/press-release-draft",
+        "./skills/purpose-first-message",
+        "./skills/seo-brief",
+        "./skills/social-post-from-article"
+      ]
+    },
+    {
+      "name": "ops-skills",
+      "description": "Operations and admin: Reports, minutes, SOPs, invoices, and the weekly rhythm. 14 skills.",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/business-system-prototype",
+        "./skills/capture-clarify-review",
+        "./skills/decision-record",
+        "./skills/employee-onboarding-plan",
+        "./skills/internal-announcement",
+        "./skills/internal-faq-roundup",
+        "./skills/invoice-check",
+        "./skills/meeting-agenda",
+        "./skills/meeting-minutes",
+        "./skills/project-kickoff-brief",
+        "./skills/sop-writer",
+        "./skills/vendor-comparison",
+        "./skills/weekly-3p-update",
+        "./skills/weekly-client-report"
+      ]
+    },
+    {
+      "name": "hiring-skills",
+      "description": "Hiring: Job posts, interviews, scorecards, and offers. 10 skills.",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/candidate-outreach",
+        "./skills/candidate-summary",
+        "./skills/interview-questions",
+        "./skills/interview-scorecard",
+        "./skills/job-post",
+        "./skills/offer-email",
+        "./skills/reference-check",
+        "./skills/rejection-email",
+        "./skills/role-intake",
+        "./skills/work-sample-task"
+      ]
+    },
+    {
+      "name": "cs-skills",
+      "description": "Customer success: Replies, tickets, help articles, and churn risk. 10 skills.",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/bug-report-from-ticket",
+        "./skills/churn-risk-note",
+        "./skills/customer-onboarding-plan",
+        "./skills/faq-from-tickets",
+        "./skills/feedback-themes",
+        "./skills/help-article-writer",
+        "./skills/incident-customer-notice",
+        "./skills/qbr-prep",
+        "./skills/reply-in-our-tone",
+        "./skills/ticket-triage"
+      ]
+    },
+    {
+      "name": "finance-skills",
+      "description": "Finance: Spend, KPIs, runway, and the month-end close. 10 skills.",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/budget-variance-note",
+        "./skills/expense-policy-check",
+        "./skills/investor-update",
+        "./skills/model-assumptions-review",
+        "./skills/month-end-close-checklist",
+        "./skills/monthly-kpi-summary",
+        "./skills/payment-reminder-email",
+        "./skills/runway-update",
+        "./skills/saas-spend-review",
+        "./skills/unit-economics-check"
+      ]
+    },
+    {
+      "name": "product-skills",
+      "description": "Product: PRDs, release notes, research, and prioritization. 13 skills.",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/experiment-plan",
+        "./skills/feature-prioritization",
+        "./skills/habit-loop-review",
+        "./skills/interview-guide",
+        "./skills/pmf-pyramid-review",
+        "./skills/prd-from-notes",
+        "./skills/product-teardown",
+        "./skills/release-notes",
+        "./skills/roadmap-update",
+        "./skills/shaped-pitch",
+        "./skills/spec-review",
+        "./skills/user-interview-synthesis",
+        "./skills/user-stories"
+      ]
+    },
+    {
+      "name": "legal-skills",
+      "description": "Legal basics: First-pass checklists before a lawyer looks. Not legal advice. 8 skills.",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/contract-summary",
+        "./skills/contractor-agreement-checklist",
+        "./skills/dpa-checklist",
+        "./skills/marketing-claims-check",
+        "./skills/name-clearance-first-pass",
+        "./skills/nda-first-pass",
+        "./skills/security-questionnaire-answers",
+        "./skills/terms-update-notice"
+      ]
+    },
+    {
+      "name": "management-skills",
+      "description": "Management: 1:1s, OKRs, feedback, and planning. 13 skills.",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/care-challenge-feedback",
+        "./skills/decision-bias-review",
+        "./skills/decision-memo",
+        "./skills/delegation-brief",
+        "./skills/difficult-conversation-prep",
+        "./skills/feedback-sbi",
+        "./skills/okr-draft",
+        "./skills/one-on-one-prep",
+        "./skills/performance-review-draft",
+        "./skills/quarterly-planning",
+        "./skills/retrospective",
+        "./skills/team-charter",
+        "./skills/wartime-peacetime-check"
+      ]
+    },
+    {
+      "name": "strategy-skills",
+      "description": "Strategy: The strategy classics as procedures: five forces, VRIO, the kernel, constraints, beachheads, and maps. 23 skills.",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/ansoff-growth-options",
+        "./skills/beachhead-plan",
+        "./skills/build-measure-learn",
+        "./skills/disruption-threat-check",
+        "./skills/durable-advantage-check",
+        "./skills/errc-strategy-canvas",
+        "./skills/five-forces-analysis",
+        "./skills/five-rings-situational-review",
+        "./skills/funnel-stage-design",
+        "./skills/generic-strategy-choice",
+        "./skills/hedgehog-concept-check",
+        "./skills/jtbd-switch-interview",
+        "./skills/know-enemy-and-yourself",
+        "./skills/scenario-planning",
+        "./skills/strategy-approach-picker",
+        "./skills/strategy-choice-cascade",
+        "./skills/strategy-kernel",
+        "./skills/strategy-style-selector",
+        "./skills/swot-tows-analysis",
+        "./skills/toc-five-focusing-steps",
+        "./skills/value-chain-analysis",
+        "./skills/vrio-analysis",
+        "./skills/wardley-map"
+      ]
+    },
+    {
+      "name": "ai-skills",
+      "description": "AI practice: Knowledge graphs, ontologies, RAG sources, context, and evals. 15 skills.",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/agent-harness-spec",
+        "./skills/ai-output-review",
+        "./skills/ai-pilot-plan",
+        "./skills/ai-training-plan",
+        "./skills/ai-use-policy-draft",
+        "./skills/automation-opportunity-scan",
+        "./skills/context-engineering-brief",
+        "./skills/eval-set-builder",
+        "./skills/fde-workflow-discovery",
+        "./skills/glossary-builder",
+        "./skills/knowledge-graph-extraction",
+        "./skills/mcp-connector-review",
+        "./skills/ontology-draft",
+        "./skills/prompt-to-skill",
+        "./skills/rag-source-prep"
+      ]
+    },
+    {
+      "name": "principles-skills",
+      "description": "Thinkers' principles: Methods business leaders have described publicly, as reviews you run on your own plan. Not affiliated with or endorsed by them. 20 skills.",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/altman-style-startup-review",
+        "./skills/bezos-style-door-check",
+        "./skills/bezos-style-pr-faq",
+        "./skills/buffett-style-moat-check",
+        "./skills/dalio-style-believability-decision",
+        "./skills/ford-style-flow-waste-review",
+        "./skills/grove-style-leverage-audit",
+        "./skills/huang-style-first-principles-review",
+        "./skills/inamori-style-right-as-a-person-check",
+        "./skills/inamori-style-unit-profit-review",
+        "./skills/matsushita-style-collective-wisdom",
+        "./skills/matsushita-style-dam-check",
+        "./skills/munger-style-inversion-review",
+        "./skills/musk-style-first-principles-teardown",
+        "./skills/musk-style-five-step-algorithm",
+        "./skills/ohno-style-five-whys",
+        "./skills/ohno-style-seven-wastes",
+        "./skills/paul-graham-style-unscalable-plan",
+        "./skills/thiel-style-contrarian-check",
+        "./skills/thiel-style-monopoly-check"
+      ]
+    }
+  ]
+}
