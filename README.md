@@ -22,6 +22,8 @@ Each job below has its own line. On Claude Code before 2.1.275, add the marketpl
 npx skills add tomoyaf/aiskillpod-skills
 ```
 
+One skill: `npx skills add tomoyaf/aiskillpod-skills --skill account-plan`.
+
 **By hand:** copy a folder from `skills/` into `~/.claude/skills/` (Claude Code), `~/.agents/skills/` (Codex, Copilot), `~/.cursor/skills/` (Cursor), or upload its SKILL.md in ChatGPT or Gemini.
 
 ## Give your whole team the same skills
