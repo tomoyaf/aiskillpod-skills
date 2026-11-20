@@ -11,9 +11,10 @@ Every skill also has its own page at [aiskillpod.com/skills](https://aiskillpod.
 **Claude Code:**
 
 ```
-/plugin marketplace add tomoyaf/aiskillpod-skills
-/plugin install sales-skills@aiskillpod-skills
+/plugin install sales-skills --marketplace tomoyaf/aiskillpod-skills
 ```
+
+Each job below has its own line. On Claude Code before 2.1.275, add the marketplace first: `/plugin marketplace add tomoyaf/aiskillpod-skills`, then `/plugin install sales-skills@aiskillpod-skills`.
 
 **Codex, Cursor, Copilot and other agents** (the open `skills` CLI):
 
@@ -32,6 +33,8 @@ npx skills add tomoyaf/aiskillpod-skills
 ### Sales (13) · `sales-skills`
 
 Prospecting, calls, proposals, and deals.
+
+Claude Code: `/plugin install sales-skills --marketplace tomoyaf/aiskillpod-skills`
 
 | Skill | What it does | Online |
 |---|---|---|
@@ -52,6 +55,8 @@ Prospecting, calls, proposals, and deals.
 ### Marketing (17) · `marketing-skills`
 
 Voice, copy, search, social, and launches.
+
+Claude Code: `/plugin install marketing-skills --marketplace tomoyaf/aiskillpod-skills`
 
 | Skill | What it does | Online |
 |---|---|---|
@@ -77,6 +82,8 @@ Voice, copy, search, social, and launches.
 
 Reports, minutes, SOPs, invoices, and the weekly rhythm.
 
+Claude Code: `/plugin install ops-skills --marketplace tomoyaf/aiskillpod-skills`
+
 | Skill | What it does | Online |
 |---|---|---|
 | [Business system prototype](skills/business-system-prototype/SKILL.md) | Sorts an owner's week into technician, manager and entrepreneur hours, drafts positions, and picks the first three processes to systemize, after Gerber's E-Myth Revisited. | [open](https://aiskillpod.com/skills/business-system-prototype?utm_source=github&utm_medium=readme&utm_campaign=skill-library) |
@@ -98,6 +105,8 @@ Reports, minutes, SOPs, invoices, and the weekly rhythm.
 
 Job posts, interviews, scorecards, and offers.
 
+Claude Code: `/plugin install hiring-skills --marketplace tomoyaf/aiskillpod-skills`
+
 | Skill | What it does | Online |
 |---|---|---|
 | [Passive candidate outreach message](skills/candidate-outreach/SKILL.md) | Writes a short sourcing message to a passive candidate: a specific reason why them, the role in one line, one easy ask, and 2 follow-ups. | [open](https://aiskillpod.com/skills/candidate-outreach?utm_source=github&utm_medium=readme&utm_campaign=skill-library) |
@@ -114,6 +123,8 @@ Job posts, interviews, scorecards, and offers.
 ### Customer success (10) · `cs-skills`
 
 Replies, tickets, help articles, and churn risk.
+
+Claude Code: `/plugin install cs-skills --marketplace tomoyaf/aiskillpod-skills`
 
 | Skill | What it does | Online |
 |---|---|---|
@@ -132,6 +143,8 @@ Replies, tickets, help articles, and churn risk.
 
 Spend, KPIs, runway, and the month-end close.
 
+Claude Code: `/plugin install finance-skills --marketplace tomoyaf/aiskillpod-skills`
+
 | Skill | What it does | Online |
 |---|---|---|
 | [Budget variance note](skills/budget-variance-note/SKILL.md) | Explains budget vs actual variances over a threshold: favorable or unfavorable, the driver (timing, volume, price, one-off), and the forecast impact. | [open](https://aiskillpod.com/skills/budget-variance-note?utm_source=github&utm_medium=readme&utm_campaign=skill-library) |
@@ -148,6 +161,8 @@ Spend, KPIs, runway, and the month-end close.
 ### Product (13) · `product-skills`
 
 PRDs, release notes, research, and prioritization.
+
+Claude Code: `/plugin install product-skills --marketplace tomoyaf/aiskillpod-skills`
 
 | Skill | What it does | Online |
 |---|---|---|
@@ -169,6 +184,8 @@ PRDs, release notes, research, and prioritization.
 
 First-pass checklists before a lawyer looks. Not legal advice.
 
+Claude Code: `/plugin install legal-skills --marketplace tomoyaf/aiskillpod-skills`
+
 | Skill | What it does | Online |
 |---|---|---|
 | [Contract summary with key dates](skills/contract-summary/SKILL.md) | Summarizes a commercial contract into a one-page brief: fees, term, auto-renewal and notice dates, exit, liability, IP, data, and unusual clauses. | [open](https://aiskillpod.com/skills/contract-summary?utm_source=github&utm_medium=readme&utm_campaign=skill-library) |
@@ -183,6 +200,8 @@ First-pass checklists before a lawyer looks. Not legal advice.
 ### Management (13) · `management-skills`
 
 1:1s, OKRs, feedback, and planning.
+
+Claude Code: `/plugin install management-skills --marketplace tomoyaf/aiskillpod-skills`
 
 | Skill | What it does | Online |
 |---|---|---|
@@ -203,6 +222,8 @@ First-pass checklists before a lawyer looks. Not legal advice.
 ### Strategy (23) · `strategy-skills`
 
 The strategy classics as procedures: five forces, VRIO, the kernel, constraints, beachheads, and maps.
+
+Claude Code: `/plugin install strategy-skills --marketplace tomoyaf/aiskillpod-skills`
 
 | Skill | What it does | Online |
 |---|---|---|
@@ -234,6 +255,8 @@ The strategy classics as procedures: five forces, VRIO, the kernel, constraints,
 
 Knowledge graphs, ontologies, RAG sources, context, and evals.
 
+Claude Code: `/plugin install ai-skills --marketplace tomoyaf/aiskillpod-skills`
+
 | Skill | What it does | Online |
 |---|---|---|
 | [Harness spec for an AI agent](skills/agent-harness-spec/SKILL.md) | Writes a one-page harness for an AI agent before it runs: done test, tools and limits, progress notes, small steps, stop rules, human approvals, and logs. | [open](https://aiskillpod.com/skills/agent-harness-spec?utm_source=github&utm_medium=readme&utm_campaign=skill-library) |
@@ -255,6 +278,8 @@ Knowledge graphs, ontologies, RAG sources, context, and evals.
 ### Thinkers' principles (20) · `principles-skills`
 
 Methods business leaders have described publicly, as reviews you run on your own plan. Not affiliated with or endorsed by them.
+
+Claude Code: `/plugin install principles-skills --marketplace tomoyaf/aiskillpod-skills`
 
 | Skill | What it does | Online |
 |---|---|---|
